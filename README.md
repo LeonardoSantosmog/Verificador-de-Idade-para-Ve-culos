@@ -12,10 +12,7 @@ O programa considera as seguintes regras de idade mínima:
 
 Se o usuário digitar um veículo que não esteja na lista, o programa avisa que o tipo de veículo não é reconhecido.
 
-## 💻 Como usar
-1. Clone o repositório:
-```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+## 💻 codigo
 
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
