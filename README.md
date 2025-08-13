@@ -1,17 +1,22 @@
-# 🚦 Verificador de Idade para Veículos
+# 🚗 Verificador de Idade para Veículos
 
-Este projeto em Python é um programa simples que verifica se o usuário tem idade suficiente para dirigir ou usar diferentes tipos de veículos. Ele solicita o **nome**, a **idade** e o **tipo de veículo** e retorna uma mensagem personalizada informando se a pessoa **pode ou não** dirigir ou pilotar o veículo escolhido.
+Este é um programa em Python que verifica se uma pessoa tem idade suficiente para dirigir ou usar diferentes tipos de veículos.
 
-O programa considera as seguintes regras de idade mínima:  
-- 🚗 Carros – 18 anos  
-- 🏍️ Motos – 18 anos  
-- 🚲 Bicicletas – 16 anos  
-- 🚚 Caminhões – 21 anos  
-- 🚌 Ônibus – 21 anos  
-- ✈️ Aviões – 18 anos  
+## 📜 Como funciona
+O programa:
+1. Solicita ao usuário seu nome e idade.
+2. Pergunta qual tipo de veículo deseja utilizar (carro, moto, bicicleta, caminhão, ônibus ou avião).
+3. Verifica se o usuário tem idade mínima para o veículo escolhido.
+4. Exibe uma mensagem informando se ele pode ou não usar o veículo.
 
-Se o usuário digitar um veículo que não esteja na lista, o programa avisa que o tipo de veículo não é reconhecido.
+### Idades mínimas definidas:
+- Carro e moto: 18 anos  
+- Bicicleta: 16 anos  
+- Caminhão e ônibus: 21 anos  
+- Avião: 18 anos  
 
+## 📂 Código
+```python
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
 veiculo = input("Digite o tipo de veículo (carro, moto ou etc...): ").lower()
