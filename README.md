@@ -12,8 +12,6 @@ O programa considera as seguintes regras de idade mínima:
 
 Se o usuário digitar um veículo que não esteja na lista, o programa avisa que o tipo de veículo não é reconhecido.
 
-## 💻 codigo
-
 nome = input("Digite seu nome: ")
 idade = int(input("Digite sua idade: "))
 veiculo = input("Digite o tipo de veículo (carro, moto ou etc...): ").lower()
